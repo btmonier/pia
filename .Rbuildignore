@@ -1,0 +1,12 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^README\.Rmd$
+^\.github$
+^\.cursor$
+^src/rust/target$
+^src/rust/vendor$
+^src/\.cargo$
+^\.vscode$
+^src/Makevars$
+^src/Makevars\.win$
