@@ -1,0 +1,4 @@
+[format]
+indent-width = 4
+indent-style = "space"
+exclude = ["R/extendr-wrappers.R"]
