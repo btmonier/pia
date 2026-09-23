@@ -1,0 +1,39 @@
+Package: pia
+Title: Pixelated Image Abstraction
+Version: 0.1.0
+Authors@R: 
+    person("Brandon", "Monier", , "brandon.monier@gmail.com", role = c("aut", "cre"))
+Description: Converts high resolution images into low resolution, small palette
+    outputs in the style of pixel art. Implements the method of Gerstner et al.
+    (2012) "Pixelated Image Abstraction", which simultaneously solves for a
+    superpixel segmentation (a modified SLIC) and a reduced color palette
+    (mass-constrained deterministic annealing) in CIELAB space. The core
+    optimization is implemented in Rust; results are returned as tidy tibbles
+    and a 'shiny' interface is provided.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+SystemRequirements: Cargo (Rust's package manager), rustc
+Config/rextendr/version: 0.5.0
+Config/testthat/edition: 3
+Depends: 
+    R (>= 4.2)
+Imports: 
+    cli,
+    dplyr,
+    farver,
+    ggplot2,
+    magick,
+    purrr,
+    rlang,
+    tibble
+Suggests: 
+    bslib,
+    knitr,
+    rmarkdown,
+    shiny,
+    testthat (>= 3.0.0),
+    withr
+URL: https://github.com/btmonier/pia
+BugReports: https://github.com/btmonier/pia/issues
+Config/roxygen2/version: 8.1.0
