@@ -4,6 +4,9 @@
 ^README\.Rmd$
 ^\.github$
 ^\.cursor$
+^\.editorconfig$
+^\.lintr$
+^air\.toml$
 ^src/rust/target$
 ^src/rust/vendor$
 ^src/\.cargo$

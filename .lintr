@@ -1,0 +1,6 @@
+linters: list(
+    indentation_linter = lintr::indentation_linter(indent = 4L)
+  )
+exclusions: list(
+    "R/extendr-wrappers.R"
+  )
